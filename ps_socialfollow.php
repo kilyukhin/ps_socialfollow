@@ -208,6 +208,7 @@ class Ps_Socialfollow extends Module implements WidgetInterface
         if ($sf_facebook = Configuration::get('BLOCKSOCIAL_FACEBOOK')) {
             $social_links['facebook'] = array(
                 'label' => $this->trans('Facebook', array(), 'Modules.Socialfollow.Shop'),
+                'logo' => '/img/sns/facebook.png',
                 'class' => 'facebook',
                 'url' => $sf_facebook,
             );
@@ -216,6 +217,7 @@ class Ps_Socialfollow extends Module implements WidgetInterface
         if ($sf_twitter = Configuration::get('BLOCKSOCIAL_TWITTER')) {
             $social_links['twitter'] = array(
                 'label' => $this->trans('Twitter', array(), 'Modules.Socialfollow.Shop'),
+                'logo' => '/img/sns/twitter.png',
                 'class' => 'twitter',
                 'url' => $sf_twitter,
             );
@@ -232,6 +234,7 @@ class Ps_Socialfollow extends Module implements WidgetInterface
         if ($sf_youtube = Configuration::get('BLOCKSOCIAL_YOUTUBE')) {
             $social_links['youtube'] = array(
                 'label' => $this->trans('YouTube', array(), 'Modules.Socialfollow.Shop'),
+                'logo' => '/img/sns/youtube.png',
                 'class' => 'youtube',
                 'url' => $sf_youtube,
             );
@@ -264,6 +267,7 @@ class Ps_Socialfollow extends Module implements WidgetInterface
         if ($sf_instagram = Configuration::get('BLOCKSOCIAL_INSTAGRAM')) {
             $social_links['instagram'] = array(
                 'label' => $this->trans('Instagram', array(), 'Modules.Socialfollow.Shop'),
+                'logo' => '/img/sns/instagram.png',
                 'class' => 'instagram',
                 'url' => $sf_instagram,
             );
